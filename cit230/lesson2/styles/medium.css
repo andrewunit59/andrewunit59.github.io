@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+/*'Medium' media query section. */
+@media only screen and (min-width: 32.5em) {
+    img {
+        width: 500px;
+    }
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: green;
+  }
+  .leftcol, .rightcol {
+    max-width: 48%;
+    flex: 1 0 15em;
+    padding: 10px;
+  }
+  
+  h1  {
+    color: #6495ED;
+   text-align: center;
+   padding: 10px;
+   font-family: 'Open Sans';
+   font-size: 2.5em;
+   line-height: 1em;
+  }  
+
+  h2  {
+    color: green;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-size: 2.5em;
+    line-height: 1em;
+  }
+  p {
+   line-height: 2em;
+   padding: 10px;
+    font-family: 'Poppins', Verdana, Geneva, serif;  
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  
+  
+  
+  nav {
+    background-color: yellow;
+    padding: 1em;
+    margin-top: -157px;
+  } 
+  nav a {
+    padding: .6em .5em;
+    color: #c8cc92;  
+    line-height: 3em;
+    text-decoration: none;
+  } 
+  nav li {
+    list-style-type: none;
+    font-family: 'Bangers', Helvetica, sans-serif; 
+    font-size: 2em;
+    padding-left: 135px;
+    display: inline-block;
+  }
+  nav a:hover {
+   background-color: #00ff00;
+   color: #ff4000;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px black;
+  }
+  nav ul {
+    margin: 0;
+  }
+  
+  .sec1, .sec2, .sec3, footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .sec1 {
+     background-color: #a07178;
+  } 
+  .sec2 {
+     background-color: #dbc0b1;
+  } 
+  .sec3 {
+     background-color: #c8cc92;
+    text-align: center;
+    margin-top: -25px;
+  }
+  .hspec {
+    color: black;
+  }
+  
+  #logo {
+    width:150px;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    top: 10px;
+    left: 10px;
+  }
+  .banner {
+    width: 100%;
+    height: 300px;
+  }
+   .img1, .img2, .img3 {
+   width: 100%;
+    height: 100%;
+      border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+  }
+  
+  #info{
+   font-size: 14px;
+  }
+  
+  .secnotetext {
+    color: red;
+  font-size: 2em;
+  }  
+  
+  .secnote {
+    background-color: #c8cc92 ;
+    text-align: center;
+    margin-top: -25px;
+  }
+  
