@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Mansalva&display=swap');
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #d5d887;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #e87461;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #e0c879;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #e0c879;
+	font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+h1 {
+  font-family: 'Be Vietnam';
+  font-size: 2.5em;
+}
+
+h2 {
+  font-family: 'Be Vietnam';
+  font-size: 1em;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Mansalva';
+    font-size: 2.25em;
+    padding: 10px;
+    line-height: 1em;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Be Vietnam';
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.leftcol, .rightcol {
+  max-width: 100%;
+  flex: 1 0 15em;
+  padding: 10px;
+}
+
+#logo {
+    width:150px;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    top: 10px;
+    left: 10px;
+  }
+
+  .banner {
+    width: 100%;
+    height: 300px;
+  }
+
+  .sec1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #7ac74f;
+  }
+  
+  .sec2, .sec3,.sec4, footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #d5d887;
+  }
+
+  .img1, .img2, .img3 {
+    width: 100%;
+     height: 100%;
+       border-radius: 5px;
+     box-shadow: 3px 3px 3px black;
+   }
+
+   footer {
+     background-color: #7ac74f;
+   }
