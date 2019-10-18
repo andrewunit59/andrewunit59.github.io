@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Mansalva&display=swap');
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 64em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: yellow;
+    }
+    
+    .forecast {
+        display: block;
+    }
+    
+    #map {
+        display: block;
+      }
+}
