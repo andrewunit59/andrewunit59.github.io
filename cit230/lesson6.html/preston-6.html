@@ -38,17 +38,23 @@
         </section>
         <section class="hero-image">
             <picture>
-                <div class = "hero-text">
                 <source srcset="/cit230/lesson6.html/images/cit230_image_franklinLarge2.jpg"
-                                media="(min-width: 800px)">
-                <img src="/cit230/lesson6.html/images/cit230_image_franklinLarge2.jpg" />   
+                    media="(min-width: 200px)">
+                <img src="/cit230/lesson6.html/images/cit230_image_franklinSmall2.jpg" /> 
+                <source srcset="/cit230/lesson6.html/images/cit230_image_franklinLarge2.jpg"
+                    media="(min-width: 400px)">
+                <img src="/cit230/lesson6.html/images/cit230_image_franklinMedium2.jpg" />   
+                <source srcset="/cit230/lesson6.html/images/cit230_image_franklinLarge2.jpg"
+                    media="(min-width: 800px)">
+                <img src="/cit230/lesson6.html/images/cit230_image_franklinLarge2.jpg" />
+                <div class = "hero-text"> 
                 <h3>Preston, Idaho</h3>    
                 <h5>Weather Summary: </h5>
 
                 <span>Current Temp: </span>
                 <span id = "currentTemp"></span><br>
                 <span>Wind Speed: </span>
-                <span id = "windSpeed"></span><br>
+                <span id = "windSpeed"></span><br>               
                 <span>Wind Chill: </span>
                 <span id = "windChill"></span><br>
             </div>

@@ -88,28 +88,7 @@ h5{
   padding: 10px;
 }
 
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  /* Set a specific height */
-  height: 100%;
 
-  /* Position and center the image to scale nicely on all screens */  
-  background-position: center;
-  display: block;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: absolute;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  position: relative;
-  display: block;
-  color: white;
-}
 
 /*.hero-image {
   /*Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read 
@@ -167,8 +146,31 @@ h5{
   margin: 0 auto;
 }
 
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */  
+  background-position: center;
+  display: block;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: relative;
+  display: block;
+  color: white;
+}
+
 .sec4 {
-  display: flex;
+  display: inline-flex;
   flex-flow: row wrap;
   padding: 10px;
   background-color: #d5d887;
@@ -176,7 +178,7 @@ h5{
 }
 
 .sec5 {
-  display: flex;
+  display: inline-flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
