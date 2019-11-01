@@ -16,9 +16,13 @@
 		color: yellow;
     }
     
-    .weatherSummary {
-        display: block;
-    }
+	.container {
+		margin: 1rem auto;
+		display:grid; 
+		grid-template-columns: 1fr 1fr 1fr; 
+		/*max-width: 1048px;*/
+		background-color: #e0c879;
+	}
     
     #map {
         display: block;
