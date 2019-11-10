@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Mansalva&display=swap');
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: yellow;
+	}
+	.container {
+		margin: 1rem auto;
+		display:grid; 
+		grid-template-columns: 1fr 1fr; 
+		/*max-width: 1048px;*/
+		background-color: #e0c879;}
+	
+	#map {
+		display: block;
+	  }
+
+}
