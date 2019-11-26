@@ -131,19 +131,6 @@ h5{
   box-shadow: 0 0 50px #333;
 }
 
-.forecast {
-  display: block;
-}
-
-section table,
-tr,
-th,
-td {
-  border-style: double;
-  margin: 0 auto;
-  padding: 5px;
-}
-
 .leftcol,
 .rightcol {
   max-width: 100%;
@@ -153,17 +140,6 @@ td {
 
 #logo {
   width: 150px;
-  position: relative;
-  border: 2px black solid;
-  border-radius: 5px;
-  box-shadow: 10px 10px 10px black;
-  top: 10px;
-  left: 10px;
-}
-
-#imageLake {
-  max-width: length;
-  max-width: 150px;
   position: relative;
   border: 2px black solid;
   border-radius: 5px;
