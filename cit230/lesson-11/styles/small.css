@@ -131,6 +131,18 @@ h5{
   box-shadow: 0 0 50px #333;
 }
 
+.img1 {
+  width: 250px;
+  height: 200 px;
+}
+
+.img2 {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 500px;
+}
+
 .leftcol,
 .rightcol {
   max-width: 100%;
@@ -168,12 +180,19 @@ h5{
 }
 
 .sec2 {
-  display: inline-flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   padding: 10px;
   background-color: #e87461;
+  margin: 0 auto;
+}
+
+.sec3 {
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 10px;
+  background-color: #d5d887;
   margin: 0 auto;
 }
 
