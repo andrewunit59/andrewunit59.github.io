@@ -1,0 +1,46 @@
+[
+{
+    "TempleName" : "Rexburg Idaho Temple",
+    "TempleLocation" : "Rexburg, ID",
+    "TempleAddress" : "750 S 2nd E",
+    "Telephone" : "(1)208-656-0880",
+    "Email" : "",
+    "Services" : [
+        {
+            "Service0" : "Rental clothing available",
+            "Service1" : "No cafeteria available",
+            "Service2" : "No patron housing available",
+            "Service3" : "Distribution center nearby"
+        }
+    ],
+    "SessionSchedule" : "Tuesday through Saturday: 0500-2100, Endowment Sessions on the hour every hour",
+    "TempleClosure" : "Every Sunday and Monday, Thanksgiving, Christmas, Gerneral Conference weekends"
+},
+{
+    "TempleName" : "Accra Ghana Temple",
+    "TempleLocation" : "Accra, Ghana",
+    "TempleAddress" : "57 Independence Ave, North Ridge",
+    "Telephone" : "(233)302-650-123",
+    "Email" : "",
+    "Services" : [
+        {
+            "Service0" : "No clothing rental available",
+            "Service1" : "No cafeteria available",
+            "Service2" : "Patron housing available",
+            "Service3" : "Distribution center nearby"
+        }
+    ],
+    "SessionSchedule" : "",
+    "TempleClosure" : ""
+}
+{
+    "TempleName" : "Seoul Korea Temple",
+    "TempleLocation" : "Seoul, South Korea",
+    "TempleAddress" : "",
+    "Telephone" : "",
+    "Email" : "",
+    "Services" : "",
+    "SessionSchedule" : "",
+    "TempleClosure" : ""
+ }
+]

@@ -182,6 +182,20 @@ label, input {
   margin-bottom: 10px;
 }
 
+th,
+td {
+  border: 1.5px solid black;
+}
+
+section, table, 
+tr,
+th,
+td {
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  vertical-align: center;
+}
 
 .sec1 {
   display: flex;
