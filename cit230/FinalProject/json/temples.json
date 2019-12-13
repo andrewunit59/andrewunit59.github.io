@@ -6,10 +6,12 @@
     "Telephone" : "(1)208-656-0880",
     "Email" : "",
     "Services" : [
-            "Rental clothing available",
-            "No cafeteria available",
-            "No patron housing available",
-            "Distribution center nearby"
+        {
+            "Service0" : "Rental clothing available",
+            "Service1" : "No cafeteria available",
+            "Service2" : "No patron housing available",
+            "Service3" : "Distribution center nearby"
+        }
     ],
     "SessionSchedule" : "Tuesday through Saturday: 0500-2100, Endowment Sessions on the hour every hour",
     "TempleClosure" : "Every Sunday and Monday, Thanksgiving, Christmas, Gerneral Conference weekends"
@@ -21,14 +23,16 @@
     "Telephone" : "(233)302-650-123",
     "Email" : "",
     "Services" : [
-            "No clothing rental available",
-            "No cafeteria available",
-            "Patron housing available",
-            "Distribution center nearby"
+        {
+            "Service0" : "No clothing rental available",
+            "Service1" : "No cafeteria available",
+            "Service2" : "Patron housing available",
+            "Service3" : "Distribution center nearby"
+        }
     ],
     "SessionSchedule" : "",
     "TempleClosure" : ""
-},
+}
 {
     "TempleName" : "Seoul Korea Temple",
     "TempleLocation" : "Seoul, South Korea",
