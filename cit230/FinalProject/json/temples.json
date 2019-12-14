@@ -1,17 +1,15 @@
-[
+{ "temples" : [
 {
     "TempleName" : "Rexburg Idaho Temple",
     "TempleLocation" : "Rexburg, ID",
     "TempleAddress" : "750 S 2nd E",
     "Telephone" : "(1)208-656-0880",
-    "Email" : "",
-    "Services" : [
-        {
-            "Service0" : "Rental clothing available",
-            "Service1" : "No cafeteria available",
-            "Service2" : "No patron housing available",
-            "Service3" : "Distribution center nearby"
-        }
+    "Email" : "rexburgldstemp@lds.email.org",
+    "Services" : [      
+            "Rental clothing available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"       
     ],
     "SessionSchedule" : "Tuesday through Saturday: 0500-2100, Endowment Sessions on the hour every hour",
     "TempleClosure" : "Every Sunday and Monday, Thanksgiving, Christmas, Gerneral Conference weekends"
@@ -21,26 +19,45 @@
     "TempleLocation" : "Accra, Ghana",
     "TempleAddress" : "57 Independence Ave, North Ridge",
     "Telephone" : "(233)302-650-123",
-    "Email" : "",
+    "Email" : "accraldstemp@lds.email.org",
     "Services" : [
-        {
-            "Service0" : "No clothing rental available",
-            "Service1" : "No cafeteria available",
-            "Service2" : "Patron housing available",
-            "Service3" : "Distribution center nearby"
-        }
+            "No clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
     ],
-    "SessionSchedule" : "",
-    "TempleClosure" : ""
-}
+    "SessionSchedule" : "Tuesday through Saturday: 0500-2100, Endowment Sessions on the hour every hour",
+    "TempleClosure" : "Every Sunday and Monday, Thanksgiving, Christmas, Gerneral Conference weekends"
+},
 {
+    "TempleName" : "Kiev Ukraine Temple",
+    "TempleLocation" : "Kiev, Ukraine",
+    "TempleAddress" : "1 Yabluneva St.",
+    "Telephone" : "(380)44-371-4088",
+    "Email" : "kievldstemp@lds.email.org",
+    "Services" : [
+            "No clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+    "SessionSchedule" : "Tuesday through Saturday: 0500-2100, Endowment Sessions on the hour every hour",
+    "TempleClosure" : "Every Sunday and Monday, Thanksgiving, Christmas, Gerneral Conference weekends"
+ },
+ {
     "TempleName" : "Seoul Korea Temple",
     "TempleLocation" : "Seoul, South Korea",
-    "TempleAddress" : "",
-    "Telephone" : "",
-    "Email" : "",
-    "Services" : "",
-    "SessionSchedule" : "",
-    "TempleClosure" : ""
+    "TempleAddress" : "Sincheon-ro 7 gil 21, seodaemun-gu",
+    "Telephone" : "(82)2-330-2700",
+    "Email" : "seoulldstemp@lds.email.org",
+    "Services" : [ 
+            "Clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+    "SessionSchedule" : "Tuesday through Saturday: 0500-2100, Endowment Sessions on the hour every hour",
+    "TempleClosure" : "Every Sunday and Monday, Thanksgiving, Christmas, Gerneral Conference weekends"
  }
 ]
+}
