@@ -12,38 +12,47 @@
     <header> 
      <h1>A One Stop Resource for US Navy Master-at-Arms Reservists</h1> 
      <nav>
-     <a href="home.html">Back to Home</a> 
-     <a href="misc.html">Commonly Visited Websites</a>  
-     <a href="CoC.html">Tech Help Corner</a>
-     <a href="training.html">Training Resources</a>
-     <a href="travel.html">Travel Links</a> 
-    <a href="feedback.html">Feedback</a><br>
+    <ul class="navigation">
+    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+     <li><a href="home.html">Back to Home</a></li> 
+     <li><a href="misc.html">Commonly Visited Websites</a></li>  
+     <li><a href="CoC.html">Tech Help Corner</a></li>
+     <li><a href="training.html">Training Resources</a></li>
+     <li><a href="travel.html">Travel Links</a></li> 
+     <li><a href="feedback.html">Feedback</a><br></li>
+    </ul>
     </nav>
     </header>
-    <h2>Mobilization/ADT/ADSW Opportunities</h2>    
+    <h2>Mobilization/ADT/ADSW Opportunities</h2>  
+    <section class ="sec2">  
     With the introduction of ZipServe on the Navy Reserves Homeport (NRH), you can apply for ATs, ADTs, ADSWs, and Mobilization opportunities all in one spot.  ZipServe is located <a href="https://locker.private.navyreserve.navy.mil/zipserve/#home" target="_blank">here</a>.  In order to access
     this website, you will need your DOD-Email certificate.<br>
-    <p>For school opportunities, you will apply for them in <a href="https://app.prod.cetars.training.navy.mil/cantrac/vol2.html" target="_blank">CANTRAC</a>.  They are funded by the unit you are assigned to go with on AT.</p>.
+    <p>For school opportunities, you will apply for them in <a href="https://app.prod.cetars.training.navy.mil/cantrac/vol2.html" target="_blank">CANTRAC</a> (DOD-Email).  They are funded by the unit you are assigned to go with on AT.</p>
     <h2>What is the difference between AT, ADT, ADSW, IDTT, and a Mobilization?</h2>
-    <h3>AT (Annual Training)</h3>
-    <p>This is an annually-required period at the Active Duty command that you support.  In order to satisfy the requirements to have a good year, you must go on an AT that lasts a minimum of 12 days.  You may go on AT with the unit you drill with (which means you have a "local billet") or you may be
+    <button type="button" class="collapsible">AT (Annual Training)</button>
+    <p>This is an annually-required period at the Active Duty command that you support.  In order to satisfy the requirements to have a good year, you must go on an AT that lasts a minimum of 12 days each fiscal year.  You may go on AT with the unit you drill with (which means you have a "local billet") or you may be
         cross-assigned out with another Reserves unit, and you go with them to AT.  To the unit you are drilling with, you are considered "cross-assigned out", and to the unit you go on AT with, you are considered "cross-assigned in".  If you are cross-assigned out, it is imperative that you stay in contact
         with your cross-assigned in unit, so that you may be informed of any upcoming ATs or special training events.  In certain circumstances, if you are unable to go with your unit on AT, you can request E-AT funding (if available) to go on another AT.  
     </p>
-    <h3>ADT (Active Duty for Training)</h3>
+    <button type="button" class="collapsible"3>IDT (Inactive Duty Training) and IDTT</button>
+    <p>IDTs are additional training periods outside of regular drill periods, primarily used for individual or unit readiness training. IDTT orders are IDT orders that you need to travel over 100 miles to the travel site for.  If you are instructed to reschedule drill periods for an IDT or IDTT, you will submit 
+        the resked request in EDM, which is located on NSIPS.
+    </p>
+    <button type="button" class="collapsible">ADT (Active Duty for Training)</button>
     <p>ADTs usually tend to be longer than ATs (but can be shorter than them as well).  The primary difference between ATs and ADTs is the source of funding.  ATs (and E-ATs) are funded by the unit you go on AT with.  ADTs are funded by the unit or command that you are going to support.  Some common ADTs that 
         MA Reservists go to are security support for Air Shows, the DoD Warrior Games (a paralympics for wounded US and other NATO veterans, one I HIGHLY recommend!), and Fleet Weeks.  If you come across an AT that you would like to do, but it is unlikely that you will get E-AT funding, you can email the Point of contact
         on the advertisement (via your Navy email) and ask if ADT funding is available.  Sometimes you may have to apply to several ADTs before you get one.  I highly recommend going on ADTs if you cannot go on long-term orders, such as an ADSW or mobilization due to work or family constraints.
     </p>
-    <h3>ADSW (Active Duty for Special Work)</h3>
+    <button type="button" class="collapsible">ADSW (Active Duty for Special Work)</button>
     <p>ADSWs are long-term orders, that typically range from 6 months to a year.  I have not seen very many that are specifically tailored to MAs, other than NOSC Armed Watchstander and sometimes SAMI at RTC Great Lakes.</p>
-    <h3>Mobilization</h3>
+    <button type="button" class="collapsible">Mobilization</button>
     <p>Mobilizations are deployments, typically between 6 months to a year.  Most are at overseas locations.  Mobilization requirements for MAs recently are typically in Bahrain, Djibouti, Cuba, and the UAE.  In order to sign up for a mobilization, you must sign a Volunteer Waiver Agreement (VWA).  You will then spend
-        between a couple of weeks to a month of pre-mobilization training before you leave for the offical mobilization.  Once completed, you have about a week of end-of-mob requirements before you officially return home.
-    </p>
+        between a couple of weeks to a month of pre-mobilization training before you leave for the offical mobilization.  Once completed, you have about a week of end-of-mob requirements before you officially return home.</p>
+    </section>
     <footer>
         <p>&copy; <span id="currentYear"></span> &star; Andrew Martin &star; This is not an offical US Navy Website.</p>
     </footer>
     <script src="scripts/currentdate.js"></script>
+    <script src="scripts/collapsible.js"></script>
 </body>
 </html>
