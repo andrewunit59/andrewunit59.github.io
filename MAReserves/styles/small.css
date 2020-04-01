@@ -16,11 +16,6 @@ nav {
   display: block;
 }
 
-/*class selectors*/
-.hidden {
-  text-decoration-color: black;
-}
-
 .navigation li:first-child {
   display: block;
 }
@@ -29,6 +24,7 @@ nav {
   display: none;
 }
 
+/*Styles the Navigation Menu Links*/
 .navigation a {
   display: block;
   color: #e0c879;
@@ -43,9 +39,6 @@ nav {
   font-weight: 700;
 }
 
-/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
-  <ul class="navigation responsive">
-  */
 .responsive li {
   display: block;
 }
@@ -106,16 +99,6 @@ h5{
   grid-template-columns: 1fr; 
   /*max-width: 1048px;*/
   background-color: #e0c879;}
-
-#logo {
-  width: 150px;
-  position: relative;
-  border: 2px black solid;
-  border-radius: 5px;
-  box-shadow: 10px 10px 10px black;
-  top: 10px;
-  left: 10px;
-}
 
 .banner {
   width: 100%;
