@@ -143,6 +143,15 @@ h5{
   background-color: #555;
 }
 
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
 .content {
   padding: 0 18px;
   max-height: 0;
