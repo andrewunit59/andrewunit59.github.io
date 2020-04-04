@@ -167,6 +167,9 @@ h5{
   max-width: 1000px;
   position: relative;
   margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 /* Hide the images by default */
