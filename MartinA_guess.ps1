@@ -10,7 +10,7 @@ do {
 "Please enter a number between 1 and 100"
 $guess=Read-Host 'Please enter your guess'
 
-    if(+$guess -gt $random){
+    if($guess -gt $random){
         "Your guess is too high! Please guess again"
     }
     elseif(+$guess -lt $random){
